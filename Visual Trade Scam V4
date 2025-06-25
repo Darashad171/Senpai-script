@@ -1,6 +1,6 @@
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
-local TS = game:GetService("TweenService")
+local TS = game:GetService("TweenService") 
 local gui = Instance.new("ScreenGui")
 gui.ResetOnSpawn = false
 gui.Name = "CoolUI"
@@ -63,7 +63,7 @@ local function makeToggle(text, yPos)
     txt.Position = UDim2.new(0, 10, 0, 0)
     txt.BackgroundTransparency = 1
     txt.Text = text
-    txt.TextColor3 = Color3.fromRGB(255, 255, 255)
+    txt.TextColor3 = Color3.fromRGB(8, 8, 8)
     txt.TextSize = 14
     txt.Font = Enum.Font.Gotham
     txt.TextXAlignment = Enum.TextXAlignment.Left
